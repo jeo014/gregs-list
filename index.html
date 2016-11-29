@@ -14,25 +14,26 @@
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+  <nav>
+    <h2>Greg's List</h2>
+      <a href="google.com" class="navlink">Post</a>
+      <a href="google.com" class="navlink">Account</a>
+  </nav>
 <main>
-<nav>
-  <h2>Greg's List</h2>
-    <a href="google.com" class="navlink">Post</a>
-    <a href="google.com" class="navlink">Account</a>
-</nav>
-<div class="searchsection">
-  	<input placeholder="Search Software Jobs" class="searchbar">
-  	<button type="submit" class="searchbutton"><img src="magnifying-glass.png"></button>
-
-</div>
-<div>
-	<button class="prev">Previous</button>
-	<div class="pages"><span class="pagenumber">Page 1 of 987</span></div>
-	<button class="next">Next</button>
-</div>
-<div class="listings">
-	<p>June 22 <a href="https://www.google.com">  Technical Project Manager </a> Midtown East</p>
-	<p>June 22 <a href="https://www.google.com">  Frontend Developer </a> Soho </p>
-	<p>June 22 <a href="https://www.google.com">  Senior Python Developer/Cofounder </a> Flatiron</p>
-</div>
+  <div class="container">
+    <div class="search-wrapper">
+  	 <input placeholder="Search Software Jobs" class="search-field">
+  	 <button type="submit" class="search-button"><img src="magnifying-glass.png"></button>
+    </div>
+    <div class="button-group">
+	    <button class="left-button pages">Previous</button>
+      <div class="pages-box pages">Page 1 of 987</div>
+      <button class="right-button pages">Next</button>
+    </div>
+    <div class="listings-wrapper">
+	   <p>June 22 <a href="https://www.google.com">  Technical Project Manager </a> Midtown East</p>
+	   <p>June 22 <a href="https://www.google.com">  Frontend Developer </a> Soho </p>
+	   <p>June 22 <a href="https://www.google.com">  Senior Python Developer/Cofounder </a> Flatiron</p>
+    </div>
+  </div>
 </main>
